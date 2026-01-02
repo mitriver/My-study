@@ -3,7 +3,10 @@ package study20260102;
 public class MainMethod {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		if( 10 > 5 ) {
+			System.out.println( " 5보다 크다 ");
+		}
 
 	}
 
