@@ -15,12 +15,21 @@ public class MainMethod {
 		int tall = 160;
 		
 		if( tall >= 145 ) {
-			
+			System.out.println("바이킹 탑승가능");
 		}else {
-			
+			System.out.println("바이킹 탑승 불가");
 		}
 		
 		
+		int age = 33;
+		
+		if( (age/10) == 3 ) // age >= 30 && age < 40
+		    System.out.println("30대 이다");
+		else
+		    System.out.println("20대 이다");		
+	
+		
+		//
 		
 	}
 
