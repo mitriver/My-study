@@ -6,6 +6,8 @@ public class MainMethod {
 		
 		if( 10 > 5 ) {
 			System.out.println( " 5보다 크다 ");
+		}else {
+			System.out.println( "5보다 작다 ");
 		}
 
 	}
