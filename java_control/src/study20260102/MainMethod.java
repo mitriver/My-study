@@ -10,6 +10,18 @@ public class MainMethod {
 			System.out.println( "5보다 작다 ");
 		}
 
+		// 바이킹 탑승 가능 : 145cm 이상
+		
+		int tall = 160;
+		
+		if( tall >= 145 ) {
+			
+		}else {
+			
+		}
+		
+		
+		
 	}
 
 }
