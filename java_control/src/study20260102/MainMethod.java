@@ -35,11 +35,31 @@ public class MainMethod {
 		//  단 4시간 이상 주차시 기본요금은 2500원이다
 		//   예) 3시간 50분 (230분) -> 3000원
 		///      4시간 12분 ( 252분) -> 2600원
-		
+
+		    public static int calculateFee(int minutes) {
+		        int fee;
+
+		        // 4시간 미만
+		        if (minutes < 240) {
+		            fee = 1000; // 기본요금
+
+		            // 기본시간 30분 초과 시
+		            if (minutes > 30) {
+		                int extraMinutes = minutes - 30;
+		                int extraUnits = (int) Math.ceil(extraMinutes / 10.0);
+		                fee += extraUnits * 100;
+		            }
+
+		        } 
+		        // 4시간 이상
+		        else {
+		            fee = 2500; // 4시간 이상 기본요금
+		            int extraMinutes = minutes - 240;
+		        }
+		        
+		        return fee;
+		    }
 	}
-
-}
-
 
 /* 제어문
 
