@@ -53,28 +53,38 @@ public class LoopMain {
 	    // 게임을 총 10판 진행 하기
 	    // 게임에서  내가 맞춘 횟수는 총 몇번인지  출력하기
 	    
-	    int ok = 0; // 내사 맞춘건지 누적저장 변수
+//	    int ok = 0; // 내사 맞춘건지 누적저장 변수
+//	
+//	    for( int i=1; i<=10; i++) {
+//	    	int coin = (int)Math.floor(Math.random() * 2) + 1;
+//	    	// 1 - 앞면 , 2- 뒷면
+//	    System.out.println("동전 앞면 뒷면 맟추기");
+//	    System.out.println("1-앞면, 2-뒷면, \n 입력 : ");
+//	    int user = scan.nextInt();
+//	    
+//	    if( user == coin ) {	
+//	        System.out.println("맞추기 성공!!!");
+//	        ok++;
+//	    }else
+//	    	System.out.println("맞추기 실패......");
+//     }
+//	   System.out.println("내가 맞춘 횟수 : "+ ok);
 	
-	    for( int i=1; i<=10; i++) {
-	    	int coin = (int)Math.floor(Math.random() * 2) + 1;
-	    	// 1 - 앞면 , 2- 뒷면
-	    System.out.println("동전 앞면 뒷면 맟추기");
-	    System.out.println("1-앞면, 2-뒷면, \n 입력 : ");
-	    int user = scan.nextInt();
+	
+
+	  // 무한 루프  -  반복문은 조건식이 참인경우에 계속 반복 수행을 한다
+	  //             무조건 참이 되게 조건식을 설정하면  무한 반복을 할수 있다.
+	  // 무한 루프는 지정된 회수가 없기에 멈추지 않고 계속 동작한다 . 
+	  //  그래서 무한루프 구현시 특정 조건을 걸어 둔다.  
 	    
-	    if( user == coin ) {	
-	        System.out.println("맞추기 성공!!!");
-	        ok++;
-	    }else
-	    	System.out.println("맞추기 실패......");
-      }
-	   System.out.println("내가 맞춘 횟수 : "+ ok);
-	
-	
-	}
-
-}
-
+	    
+	    for( ; true; ) {
+	    	
+	    }
+	    
+	}    
+  
+}    
 
 /*
     1월 5일 과제
