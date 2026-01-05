@@ -86,7 +86,7 @@ public class MainMathod {
 //    	else if( ( user==1 && com==3) || (user==2 && com== 1) || (user==3 && com==2) ) {
 //    		System.out.println("나의 승리");
 //    	}else
-//    		System.out.println("나의 패배....");
+//    		System.out.println("나의 패배...");
    	}
 	
 }
