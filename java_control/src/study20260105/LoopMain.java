@@ -15,7 +15,7 @@ public class LoopMain {
 //				System.out.println( i );
 //		}
 		
-	    Scanner scan = new Scanner(System.in);
+//	    Scanner scan = new Scanner(System.in);
 		
 //		System.out.print("정수 입력 : ");
 //		int num = scan.nextInt();
@@ -76,10 +76,18 @@ public class LoopMain {
 	  //             무조건 참이 되게 조건식을 설정하면  무한 반복을 할수 있다.
 	  // 무한 루프는 지정된 회수가 없기에 멈추지 않고 계속 동작한다 . 
 	  //  그래서 무한루프 구현시 특정 조건을 걸어 둔다.  
-	    아
 	    
-	    for( ; true; ) {
-	    	
+	    
+//	    for( ; true; ) {
+//	    	
+//	    }
+	    
+//	    for(;;) {
+//	    	
+//	    }
+	    
+	    while(true) {
+	    	System.out.println(" 나는 무한 루프이다. ");
 	    }
 	    
 	}    
