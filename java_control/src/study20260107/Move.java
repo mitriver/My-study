@@ -79,10 +79,10 @@ public class Move {
 		   break;
 		   		   
 	   default :    
-		   System.out.println("올바른 이동키를 입력하세요");
-		   
+		   System.out.println("올바른 이동키를 입력하세요");		   
 	   }	
-	
+	   board[posY][posX] = 2;
+	   
    }		
 		
 		
