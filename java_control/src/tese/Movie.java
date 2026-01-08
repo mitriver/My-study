@@ -2,7 +2,7 @@ package tese;
 
 import java.util.Scanner;
 
-public class movie {
+public class Movie {
 
 	public static void main(String[] args) {
 		
