@@ -1,0 +1,34 @@
+package study20250112;
+
+public class Student {
+
+	static String schoolName; // 클래스변수
+	
+	public String name; // 인스턴스변수
+	public String age; // 인스턴스변수
+	private int tall; // 인스턴스변수
+	private int grade; // 인스턴스변수
+	
+	public Student() { }
+	public Student(String name, String age, int tall) {
+		this.name = name;
+		this.age = age;
+		this.tall = tall;
+	}
+	public Student(String name, int tall) {
+		this.name = name;
+		this.tall = tall;
+	}
+	
+	// 클래스 객체에 저장되어있는 값을 출력할때
+	// 자바에서는 일반적으로 toString 메서드를 사용한다.
+	public String toString() {
+		return name+" : "+age+" : "+tall+" : "+grade;
+	}
+	
+}
+
+
+
+
+
