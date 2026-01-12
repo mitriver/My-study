@@ -9,6 +9,13 @@ public class Student {
 	private int tall; // 인스턴스변수
 	private int grade; // 인스턴스변수
 	
+	// 변수 초기화 순서
+	//  명시작초기화 -> 초기화 블럭 -> 생성자메서드
+	
+	{  //인스턴스 초기화 블럭을 이용한 변수 초기화
+	     name="이성계";
+	}
+	
 	public Student() { }
 	public Student(String name, String age, int tall) {
 		this.name = name;
