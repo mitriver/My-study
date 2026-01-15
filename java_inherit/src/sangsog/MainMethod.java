@@ -1,5 +1,6 @@
 package sangsog;
 
+import common.Appliance;
 import products.Aircon;
 import products.Refrigerator;
 import products.Television;
@@ -19,7 +20,7 @@ public class MainMethod {
 		
 		System.out.println( air );
 		
-		System.out.println(air);
+		
 		
 		//Microwave microwave = new Microwave();
 		
@@ -49,6 +50,21 @@ public class MainMethod {
 		// 데이터관련 클래스를 여러개는 공통점이 있는경우 부모 클래스로  묶어준다.
 		//  메서드를 중점으로 다루는 클래스가 여러개라면  추상 부모클래스 또는 인터페이스로 묶어준다.
 		
+		
+		Aircon air1 = new Aircon("캐리어", 290);
+		Television tv1 = new Television();
+		tv.ch= 11;
+		
+		// Appliance app1 = new Appliance();  //추상클래스인 부모클래스는 객체생성 불가
+		Appliance app1;
+		app1 = air;
+		
+		Appliance app2 = new Television();
+		app2.ch= 34;
+		
+		
+		Appliance app3 = new Refrigerator();
+		Appliance app4 = new Aircon();
 		
 	}
 

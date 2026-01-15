@@ -5,6 +5,7 @@ public abstract class Appliance {
     protected boolean onoff = false; // 전원 여부
     protected String name; // 제품명
     protected int powerCon; // 소비전력
+	public int ch;
     
     protected Appliance() {}
     protected Appliance(String name, int powerCon) {
@@ -30,6 +31,5 @@ public abstract class Appliance {
 	
 		}
 	}
-
 
 
