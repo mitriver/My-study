@@ -12,3 +12,4 @@ public class Rabbit extends Animal {
 		System.out.println(" 냐옹 ");
 	}
 }
+

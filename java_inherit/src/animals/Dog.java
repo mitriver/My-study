@@ -22,3 +22,4 @@ public class Dog extends Animal {
 		System.out.println("멍멍");
 	}
 }
+
