@@ -15,14 +15,14 @@ public abstract class MainMethod {
 	}
 
 	public abstract void move();
-	public void drink();  // abstract 생략가능
+	public abstract void drink();  // abstract 생략가능
  
      public int num=0; //인스턴스변수 불가    
     public static int count=0;
     
     public final int a=20;
 
-
+String[] menu = {"아메리카노","라떼","녹차","홍차","치즈케이크","티라미수",};
 
 }
 /*
