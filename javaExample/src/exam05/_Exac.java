@@ -24,7 +24,7 @@ public class _Exac {
 		String temp = ssn.substring(0, 2);
 		
 		int birthYear;
-		if(imsi.equals("1") || imsi.equals("2")){
+		if(imsi.equals("1") || imsi.equals("2")){ //1900
 			birthYear = 1900 + Integer.parseInt(temp);
 		}else { //2000
 			birthYear = 2000 + Integer.parseInt(temp);
