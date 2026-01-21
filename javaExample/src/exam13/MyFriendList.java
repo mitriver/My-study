@@ -1,9 +1,14 @@
 package exam13;
 
 public class MyFriendList {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    Friend head;
+    
+	public void add(String name) {
+		Friend newNode = new Friend(name);
+		if(head == null ) {
+			head = newNode;
+			return;
+		}
 
 	}
 
