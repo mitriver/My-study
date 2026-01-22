@@ -40,7 +40,41 @@ public class MyLinkedList {
 		}
 		return str + temp.data + "]";
 	}
-
-
-
+	
+	public void add (int index, Object input) {
+		if (index == 0) {
+			addFirst(input);
+			return;
+		}
+		Node newNode = new Node(input);
+		Node prev = head;
+		for (int i = 0; i < index - 1; i++) {
+			prev = prev.next;
+		}
+		// 2. 새로운 노드의 연결 고리를 먼저 설정
+		newNode.next = prev.next;
+		// 3. 이전 노드가 새로운 노드를 가리키게 함
+		prev.next = newNode;
+		size++;
+	}
+	
+	public Object remove(int index) {
+		if (index == 0) {
+			Object data = head.data;
+			head = head.next;
+			size--;
+			return data;
+		}
+		
+		Node prev = head;
+		for (int i = 0; i < index - 1; i++) {
+			prev = prev.next;
+		}
+		Node toDelete = prev.next;
+		prev.next = toDelete.next;
+		Object returndata = toDelete.data;
+	    toDelete = null;
+	    size--;
+	    return returndata;
+	}	
 }
